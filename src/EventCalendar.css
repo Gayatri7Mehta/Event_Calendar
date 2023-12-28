@@ -1,0 +1,41 @@
+/* EventCalendar.css */
+.EventCalendar {
+  text-align: center;
+  margin-top: 2rem; /* Add some top margin for spacing */
+}
+
+.EventCalendar h2 {
+  color: #008080; /* Teal color for the heading */
+}
+
+.EventCalendar button {
+  background-color: #008080; /* Teal color for the button */
+  color: white; /* Text color for the button */
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.EventCalendar button:hover {
+  background-color: #006666; /* Darker teal on hover */
+}
+
+/* Optionally, you can add more styling for the calendar itself */
+.EventCalendar .react-calendar {
+  max-width: 400px; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+/* Optionally, you can add more styling for the events list */
+.EventCalendar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.EventCalendar li {
+  background-color: #e0f2f1; /* Light teal for event items */
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
